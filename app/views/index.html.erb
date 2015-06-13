@@ -1,0 +1,72 @@
+
+<div class="header">
+	<div class="tittle">
+		<h1>TELO<span class="bold">TENGO</span></h1>
+		<div class="space"></div>
+	<h2>agenda, cotiza, paga... todo desde tu celular</h2>
+	<div class="space"></div>
+	<h3>La aplicación para agendar servicios profesionales modernos</h3>
+	<div class="space"></div>
+		<div class="block">
+			<button type="button" class="btn btn-success btn-lg noutline" data-toggle="modal" data-target="#myModal">Únete</button>
+			<div class="space"></div>
+			<div class="space"></div>
+			<button type="button" class="btn btn-success btn-lg noutline" data-target="/pro">Ofrece servicios</button>
+		</div>
+	</div>
+	<div class="reg">
+		  <!-- Modal -->
+		  <div class="modal fade" id="myModal" role="dialog">
+		    <div class="modal-dialog">
+		      <div class="modal-content">
+		        <div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal">&times;</button>
+		          <h4 class="modal-title center">Únete</h4>
+		        </div>
+		        <div class="modal-body">
+		          <form class="register" action="/user/create">
+				    <div class="register-switch">
+		
+				    </div>
+				    <input type="name" class="register-input" placeholder="Nombre y apellido">
+				    <input type="email" class="register-input" placeholder="Email">
+				    <input type="password" class="register-input" placeholder="Contraseña">
+				    <input type="submit" value="Crear cuenta" class="register-button">
+				    <div class="sep">
+				        <span class="or">O</span>
+				    </div>
+				    <a href="/auth/facebook" class="btn btn-block btn-social btn-facebook">
+				    	<i class="fa fa-facebook"></i>Entra con Facebook
+				    </a>
+				   	<a href="/auth/twitter" class="btn btn-block btn-social btn-twitter">
+				    	<i class="fa fa-twitter">
+				    		
+				    	</i>Entra con Twitter
+				    </a>
+		  		</form>
+		        </div>
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+		        </div>
+		      </div>
+		      
+		    </div>
+		  </div>
+		
+	</div>
+
+</div>
+<div class="wraper">
+	
+</div>
+
+<!-- 
+<h1>Welcome!</h1>
+<div class="menu">
+	<%if @user %>
+		<img src="<%=@user.image%>" alt="">
+		<h1><%=@user.name%></h1>
+		<h2><%=@user.email%></h2>
+	<%end%>
+	<a href="/signout">Cerrar Sesión</a>
+</div> -->
